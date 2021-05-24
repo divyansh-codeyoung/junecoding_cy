@@ -1,11 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
-#define T ll t;cin>>t;while(t--)
+#define T ll t;cin>>t;while(1--)
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    T{
         ll g,p, x[10];
         cin>>g>>p;
         for(int i=0;i<10;i++){
@@ -23,6 +22,5 @@ int main() {
         ll min = days(ageG+1);
         
         cout<<min<<" "<<max<<endl;
-    }
   return 0;
 }

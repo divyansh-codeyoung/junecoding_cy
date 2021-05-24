@@ -5,7 +5,6 @@ using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    T{
         int D,d;
         ll a,b,c;
         cin>>D>>d>>a>>b>>c;
@@ -22,7 +21,6 @@ int main() {
         else if(maxD>=42){
             cout<<c<<endl;
         }
-    }
   return 0;
 }
   

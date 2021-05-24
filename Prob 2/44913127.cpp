@@ -12,6 +12,5 @@ int main() {
     }
     else
     cout<<"no";
-
   return 0;
 }
