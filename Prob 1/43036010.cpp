@@ -1,4 +1,3 @@
-///Bismillahir Rahmanir Rahim
 #include<bits/stdc++.h>
 #define ll long long int
 #define ld long double
@@ -8,17 +7,10 @@ using namespace std;
 
 int main()
 {
-    fast;
-    ll t;
     ld h,m1,m,sum;
-
-    cin>>t;
-    while(t--)
-    {
         cin>>h>>m;
         m1 = m*m;
         sum = ceil(h/m1);
-
         if(sum<=18)
             cout<<"1"<<endl;
         else if(sum>=19 && sum<=24)
@@ -27,10 +19,6 @@ int main()
             cout<<"3"<<endl;
         else
             cout<<"4"<<endl;
-
-
-    }
     return 0;
-
 }
 
